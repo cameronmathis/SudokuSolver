@@ -1,5 +1,3 @@
 #!/bin/bash
-# compile the program in Python
-python SudokuSolver.py
-# execute the program
-./SudokuSolver.py
+# compile and execute the program in Python3
+python3 SudokuSolver.py $1

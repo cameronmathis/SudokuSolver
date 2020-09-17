@@ -30,16 +30,22 @@ An example of the top left grid of a puzzle can be found here: <br/>
 >0, 9, 8 <br/>
 
 <br/>Run the run.sh script. The accepted format is:
->./run.sh [problem file path+name]
+>./run.sh [puzzle txt file path+name]
+
+or
+>./run.sh
+
+where SudokuPuzzle.txt is used as the puzzle txt file
 
 ## Features
 Implemented:
+* Script
 * Puzzle file can be read and stored
 * Can solve sudoku puzzles using backtracking
 * Puzzle can be printed
 
 To-do list:
-* Write script
+* Have file read command line arguements
 
 ## Status
 Project is: _in progress_
