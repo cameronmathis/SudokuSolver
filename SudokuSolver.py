@@ -1,4 +1,6 @@
 # SudokuSolver.py
+import sys
+
 
 def load_puzzle(txt_file):
     # Open .txt file
@@ -65,8 +67,8 @@ def valid(puzzle, number, position):
     # Check 3x3 box
     box_y = position[0] // 3
     box_x = position[1] // 3
-    for x in range(box_y*3, box_y*3 + 3):
-        for y in range(box_x*3, box_x*3 + 3):
+    for x in range(box_y * 3, box_y * 3 + 3):
+        for y in range(box_x * 3, box_x * 3 + 3):
             if puzzle[x][y] == number and (x, y) != position:
                 return False
 
@@ -86,6 +88,10 @@ def store_puzzle(puzzle):
                 print(str(puzzle[y][x]) + " ", end="")
 
 
-puzzle = load_puzzle("SudokuPuzzle.txt")
+if len(sys.argv) == 2:
+    txt_file = sys.argv[1]
+else:
+    txt_file = "SudokuPuzzle.txt"
+puzzle = load_puzzle(txt_file)
 solve(puzzle)
 store_puzzle(puzzle)

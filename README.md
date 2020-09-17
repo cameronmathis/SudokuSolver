@@ -44,11 +44,8 @@ Implemented:
 * Can solve sudoku puzzles using backtracking
 * Puzzle can be printed
 
-To-do list:
-* Have file read command line arguements
-
 ## Status
-Project is: _in progress_
+Project is: _finished_
 
 ## Language details
 Language used: Python </br>
