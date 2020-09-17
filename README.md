@@ -23,7 +23,6 @@ Edit the SudokuSolver.txt file to contain your puzzle. The accepted format is:
 
 Where each coordinate represents a cell on the board. Empty cells should have 0s and numbered cells should have the
 appropriate number. All coordinates should be comma separated.
-The bottom left of the puzzle should be indexed at (1,1).
 Do not add blank lines at the start or end of file. <br/>
 An example of the top left grid of a puzzle can be found here: <br/>
 >5, 3, 0 <br/>
@@ -36,10 +35,10 @@ An example of the top left grid of a puzzle can be found here: <br/>
 ## Features
 Implemented:
 * Puzzle file can be read and stored
+* Can solve sudoku puzzles using backtracking
 * Puzzle can be printed
 
 To-do list:
-* Can solve sudoku puzzles using backtracking
 * Write script
 
 ## Status
