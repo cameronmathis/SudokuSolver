@@ -1,4 +1,4 @@
-# AkariSolver
+# SudokuSolver
 This is a Python Application that solves Sudoku Puzzles.
 
 ## Table of contents
